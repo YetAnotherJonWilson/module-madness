@@ -1,4 +1,4 @@
-// var x = getRandomInt(100, 1000001);
+// This functions creates a random number between the min(inclusive) and max (exclusive) parameters
 
 module.exports = function(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
